@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS file</title>
+</head>
+<body>
+    
+    <h1>Welcome to the Ph-Recomeder</h1>
+
+    <SCript>
+        alert("Welcome to the Ph-Recomeder")
+
+        var name =prompt("Enter Your Name")
+        console.log("hello " + name);
+        document.write("hello " + name);
+
+        var budget =prompt("what is your budget ? (low/medium/high)")
+        var opearating =prompt("which opearting system you want ? (android/iOS)")
+        var camera =prompt("what camera quality you need ? (basic/modarate/hgh)")
+        var bettery =prompt("which type of betery life you want ? (short/average/long)")
+        var screen =prompt("what screen size do you prefer ? (small/medium/large)")
+
+        if(budget === "high" && opearating == "ios" && camera == "high" && bettery == "long" && screen == "large"){
+            console.log("iphone 14 pro");
+            document.write("iphone 14 pro");
+            
+
+        // }else{
+        //     console.log("better luck next time");
+        }
+        else if(budget == "medium" && opearating == "android" && camera == "basic" && bettery == "average" && screen == "medium"){
+            console.log("Samsung note 10");
+            document.write("Samsung note 10");
+        // }else if{
+        //     console.log("keep more saving");
+        }
+         else if(budget == "low" && opearating == "android" && camera == "moderate" && bettery == "short" && screen == "small"){
+            console.log("Motorolla");
+            document.write("Motorolla");
+        }else{
+            console.log("ghreebo");
+            document.write("low budget next time");
+        }
+
+
+
+
+
+    </SCript>
+
+
+
+</body>
+</html>
